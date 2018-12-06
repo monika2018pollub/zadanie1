@@ -44,11 +44,11 @@ class ClassSQL {
                 }
                 if ("d".equals(wybor)) {
                     System.out.print("Imie: ");
-                    String druzynaA = in.nextLine();
+                    String imie = in.nextLine();
                     System.out.print("Nazwisko: ");
-                    String druzynaB = in.nextLine();
+                    String nazwisko = in.nextLine();
                     System.out.print("Opis: ");
-                    String zwyciezca = in.nextLine();
+                    String opis = in.nextLine();
 
                     statement = connection.createStatement();
 
